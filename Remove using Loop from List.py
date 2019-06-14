@@ -1,9 +1,9 @@
 
 
-num = [1,1,3,1,5,1,76,1,8,1,4,1]
+num = [1,'Good',1,'Good',3,1,'Good',5,'Good',1,76,'Good','Good',1,8,'Good',1,4,1]
 print(num)
 for x in range(0,7,+1):
-    num.remove(1)
+    num.remove("Good")
 print(num)
 
 
